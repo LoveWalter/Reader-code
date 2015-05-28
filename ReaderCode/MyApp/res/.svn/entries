@@ -1,64 +1,0 @@
-10
-
-dir
-28
-https://127.0.0.1/svn/Android/MyApp/res
-https://127.0.0.1/svn/Android
-
-
-
-2015-05-22T10:59:55.196409Z
-28
-zhang0803
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-87083ee0-a6b3-774f-8895-51cb36cd15ca
-
-values
-dir
-
-drawable
-dir
-
-values-w820dp
-dir
-
-drawable-hdpi
-dir
-
-drawable-xxhdpi
-dir
-
-menu
-dir
-
-values-v11
-dir
-
-drawable-ldpi
-dir
-
-values-v14
-dir
-
-drawable-mdpi
-dir
-
-drawable-xhdpi
-dir
-
-layout
-dir
-
