@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/database
+END
+BookDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/database/BookDBHelper.java
+END
+MarkDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/database/MarkDBHelper.java
+END
+DownloadDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/database/DownloadDao.java
+END
+DownloadDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/database/DownloadDBHelper.java
+END

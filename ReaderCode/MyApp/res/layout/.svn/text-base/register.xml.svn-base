@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_local_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/iv_touxiang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/default_touxiang" />
+
+    <Button
+        android:id="@+id/btn_selectTouxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_touxiang"
+        android:layout_toRightOf="@id/iv_touxiang"
+        android:text="@string/select_touxiang"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_register_username"
+        android:layout_below="@+id/et_register_username"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_touxiang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_register_rpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_register_password"
+        android:layout_below="@+id/et_register_password"
+        android:ems="10"
+        android:hint="Check Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_register_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_register_rpassword"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Nick Name" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_register_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_register_nickname"
+        android:layout_below="@+id/et_register_nickname"
+        android:ems="10"
+        android:hint="E-Mail Address"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_register_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_register_email"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="QQ"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btn_register_cancle"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_register_qq"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/iv_touxiang"
+        android:background="#27AE60"
+        android:text="@string/register_cancle"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_register_ok"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_register_cancle"
+        android:layout_alignBottom="@+id/btn_register_cancle"
+        android:layout_alignRight="@+id/iv_touxiang"
+        android:layout_marginRight="34dp"
+        android:background="#27AE60"
+        android:text="@string/register"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

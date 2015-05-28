@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/net
+END
+LoginNet.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/net/LoginNet.java
+END
+HttpMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/net/HttpMethod.java
+END
+NetConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/net/NetConnection.java
+END
+RegisterNet.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Android/!svn/ver/28/MyApp/src/com/zwt/myapp/net/RegisterNet.java
+END
